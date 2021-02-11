@@ -1,39 +1,39 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router} from 'react-router-dom'
-import { Provider } from 'react-redux'
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Provider } from "react-redux";
 
-import store from './store/index'
-import App from './App';
-import './index.css'
-import * as serviceWorker from './serviceWorker';
-import firebase, { firestore } from './firebase/firebase.utils'
+import store from "./store/index";
+import App from "./App";
+import "./index.css";
+import * as serviceWorker from "./serviceWorker";
+import firebase, { firestore } from "./firebase/firebase.utils";
 
-import 'typeface-roboto'
+import "typeface-roboto";
 
 firestore.settings({
-  cacheSizeBytes: firebase.firestore.CACHE_SIZE_UNLIMITED
-})
+  cacheSizeBytes: firebase.firestore.CACHE_SIZE_UNLIMITED,
+});
 
 firestore.enablePersistence().catch((err) => {
-  if(err.code === 'failed-precondition'){
-    console.log('You have much open windows')
+  if (err.code === "failed-precondition") {
+    console.log("You have much open windows");
   }
-  
-  if(err.code === 'unimplemented'){
-    console.log('Your navigator does not allow persistence')
+
+  if (err.code === "unimplemented") {
+    console.log("Your navigator does not allow persistence");
   }
-})
+});
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <Router>
-          <App />
+        <App />
       </Router>
     </Provider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

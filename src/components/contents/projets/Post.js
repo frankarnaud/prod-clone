@@ -1,24 +1,21 @@
-import React from 'react'
-import { Switch, Route, useRouteMatch } from 'react-router-dom'
-import AddLink from './AddLink'
-import Submission from './Submission'
-
+import React from "react";
+import { Switch, Route, useRouteMatch } from "react-router-dom";
+import AddLink from "./AddLink";
+import Submission from "./Submission";
 
 const Post = (props) => {
+  const { path } = useRouteMatch();
 
-    const {path} = useRouteMatch()
-
-    return (
+  return (
     <Switch>
-        <Route exact path={`${path}`} >
-            <AddLink />
-        </Route>
-        <Route path={`${path}/submission`}>
-            <Submission />
-        </Route>
-    </Switch>  
-    )
-}
+      <Route exact path={`${path}`}>
+        <AddLink />
+      </Route>
+      <Route path={`${path}/submission`}>
+        <Submission />
+      </Route>
+    </Switch>
+  );
+};
 
-
-export default Post
+export default Post;
