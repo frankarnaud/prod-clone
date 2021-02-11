@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/frankarnaud/prod-clone/static/css/main.51380bac.chunk.css",
+    "main.js": "/frankarnaud/prod-clone/static/js/main.7e14740b.chunk.js",
+    "main.js.map": "/frankarnaud/prod-clone/static/js/main.7e14740b.chunk.js.map",
+    "runtime-main.js": "/frankarnaud/prod-clone/static/js/runtime-main.0b33c831.js",
+    "runtime-main.js.map": "/frankarnaud/prod-clone/static/js/runtime-main.0b33c831.js.map",
+    "static/css/2.b1d61311.chunk.css": "/frankarnaud/prod-clone/static/css/2.b1d61311.chunk.css",
+    "static/js/2.708ab115.chunk.js": "/frankarnaud/prod-clone/static/js/2.708ab115.chunk.js",
+    "static/js/2.708ab115.chunk.js.map": "/frankarnaud/prod-clone/static/js/2.708ab115.chunk.js.map",
+    "index.html": "/frankarnaud/prod-clone/index.html",
+    "precache-manifest.cef8886a4d3243e9e12fcb725bbdf2f6.js": "/frankarnaud/prod-clone/precache-manifest.cef8886a4d3243e9e12fcb725bbdf2f6.js",
+    "service-worker.js": "/frankarnaud/prod-clone/service-worker.js",
+    "static/css/2.b1d61311.chunk.css.map": "/frankarnaud/prod-clone/static/css/2.b1d61311.chunk.css.map",
+    "static/css/main.51380bac.chunk.css.map": "/frankarnaud/prod-clone/static/css/main.51380bac.chunk.css.map",
+    "static/js/2.708ab115.chunk.js.LICENSE.txt": "/frankarnaud/prod-clone/static/js/2.708ab115.chunk.js.LICENSE.txt",
+    "static/media/idea.jpg": "/frankarnaud/prod-clone/static/media/idea.763ee302.jpg",
+    "static/media/img.jpeg": "/frankarnaud/prod-clone/static/media/img.a92f07ea.jpeg",
+    "static/media/prodhunt_image.png": "/frankarnaud/prod-clone/static/media/prodhunt_image.8fb7be70.png",
+    "static/media/index.css": "/frankarnaud/prod-clone/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b33c831.js",
+    "static/css/2.b1d61311.chunk.css",
+    "static/js/2.708ab115.chunk.js",
+    "static/css/main.51380bac.chunk.css",
+    "static/js/main.7e14740b.chunk.js"
+  ]
+}
